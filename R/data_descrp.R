@@ -1,4 +1,4 @@
-#' Ground Motion Polygon Datasets
+#' Ground Motion Datasets
 #'
 #' Datasets containing spatial correlation model outputs for PGV, PGA, and PSA values.
 #'
