@@ -14,8 +14,6 @@ For additional methodological details, please refer to the [GIRS report](https:/
 
 ## Installation
 
-Before installing `RDSCM`, make sure that the dependency package `sf` is installed.
-
 ### 1. Install `sf`
 
 ```r
@@ -97,7 +95,7 @@ library(RDSCM)
 location_1 <- c(-122.4194, 37.7749)  # San Francisco
 location_2 <- c(-121.8863, 37.3382)  # San Jose
 
-spa_cor <- CA_spa_cor(location_1, location_2, period = -1)
+spa_cor <- CA_spa_cor(location_1, location_2, period = -1)  # Predicted PGV correlation with 95% CI
 
 print(spa_cor)
 ```
